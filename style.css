@@ -1,0 +1,61 @@
+body{
+background: rgb(31, 31, 31)
+}
+
+h1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h5{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.card {
+    border: none;
+}
+
+.btn {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .btn:hover {
+    background-color: darkorange;
+  }
+
+  div.gallery {
+    margin: 5px;
+    float: left;
+    width: 360px;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav {
+    display: inline-block;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
+
+  li{
+    font-family: 'Open Sans', sans-serif;
+  }
+
